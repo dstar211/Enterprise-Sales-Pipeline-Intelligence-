@@ -1,4 +1,4 @@
-# Enterprise-Sales-Pipeline-Intelligence-
+# FP20 Analytics Challenge #35
  B2B Sales Pipeline &amp; Deals Analytics - Challenge #35  
 
 
@@ -10,7 +10,6 @@ A **3-page executive Power BI report** built for the **B2B Sales Pipeline & Deal
 
 Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark executive theme** to transform raw pipeline data into clear, actionable business insights.
 
-> 🏆 Dataset designed by **Federico Pastor** · Powered by **ZoomCharts** · Community by **Enterprise DNA**
 
 ---
 
@@ -45,7 +44,7 @@ enterprise-sales-pipeline-powerbi/
 
 ## 📄 Report Pages
 
-### Page 1 — 🔵 Pipeline Overview
+### Page 1 —  Pipeline Overview
 > End-to-end pipeline visibility with executive KPIs
 
 | KPI | Value |
@@ -66,17 +65,10 @@ enterprise-sales-pipeline-powerbi/
 
 ---
 
-### Page 2 — 🟡 Pipeline Health Monitor
+### Page 2 —  Pipeline Health Monitor
 > Catch stalled deals before they are lost
 
 #### 4-Tier Deal Risk Classification System
-
-| Tier | Days Inactive | Color |
-|------|--------------|-------|
-| 🔴 Critical | 90+ days | `#EF4444` |
-| 🟠 High | 61–90 days | `#F97316` |
-| 🟡 Medium | 31–60 days | `#EAB308` |
-| 🟢 Active | 0–30 days | `#22C55E` |
 
 **Visuals:**
 - Pipeline Funnel by Stage
@@ -88,7 +80,7 @@ enterprise-sales-pipeline-powerbi/
 
 ---
 
-### Page 3 — 🟢 Sales Execution Analysis
+### Page 3 —  Sales Execution Analysis
 > Rep performance, productivity and impact
 
 **Visuals:**
@@ -160,10 +152,10 @@ VAR avg_ac = [Avg Activity Count All Reps]
 RETURN
 SWITCH(
     TRUE(),
-    wr >= avg_wr && ac >= avg_ac, "⭐ Star Performer",
-    wr >= avg_wr && ac <  avg_ac, "🎯 Efficient Closer",
-    wr <  avg_wr && ac >= avg_ac, "⚠ High Effort Low Win",
-                                  "🔻 Needs Coaching"
+    wr >= avg_wr && ac >= avg_ac,  Star Performer",
+    wr >= avg_wr && ac <  avg_ac,  Efficient Closer",
+    wr <  avg_wr && ac >= avg_ac, High Effort Low Win",
+                                   Needs Coaching"
 )
 ```
 
