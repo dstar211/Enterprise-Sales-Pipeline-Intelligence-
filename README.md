@@ -8,8 +8,7 @@
 
 A **3-page executive Power BI report** built for the **B2B Sales Pipeline & Deals Analytics — Challenge #35** by FP20 Analytics, analyzing an enterprise sales pipeline of **11,750 deals** across **55 sales reps**, **6 product categories**, and **4 global regions**.
 
-Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark executive theme** to transform raw pipeline data into clear, actionable business insights.
-
+Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark executive theme** to transform raw pipeline data into clear, actionable business insights
 
 ---
 
@@ -20,20 +19,13 @@ Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark exe
 | Pipeline Overview | Pipeline Health Monitor | Sales Execution Analysis |
 | KPIs · Funnel · Trends | Risk Tiers · Velocity · Activity | Reps · Heatmap · Map |
 
----
-![business](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%201%20-%20Copy.jpg) 
-
-![ pipli](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%202.jpg)
-
-![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/P%203.jpg)
-
-![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%203%202%20.jpg) 
-
-![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%204.jpg) 
+--- 
 
 ---
 
 ## 📄 Report Pages 
+![Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDUxZDg3ODItNWEyZC00YjlmLThhOGEtODM2ODU4Yjc2YjY1IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
+
 
 ### Page 1 —  Pipeline Overview
 > End-to-end pipeline visibility with executive KPIs
@@ -197,7 +189,15 @@ DimSalesRep    (55 rows)
 | **Community** | Enterprise DNA |
 
 ---
+![business](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%201%20-%20Copy.jpg) 
 
+![ pipli](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%202.jpg)
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/P%203.jpg)
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%203%202%20.jpg) 
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%204.jpg) 
 ## 🙏 Acknowledgements
 
 A huge thank you to **Federico Pastor** for designing such a rich and challenging dataset, and to **ZoomCharts** for the incredible tooling — the drill-down experience and breadcrumb navigation made the storytelling feel genuinely executive-ready in a way standard Power BI visuals simply can't match. And to **Enterprise DNA** for the community and resources that make challenges like this possible.
@@ -206,8 +206,8 @@ A huge thank you to **Federico Pastor** for designing such a rich and challengin
 
 ## 📬 Connect
 
-[![LinkedIn](https://www.linkedin.com/in/durvesh-patil23 )
-[![Live Report](https://app.powerbi.com/view?r=eyJrIjoiMDUxZDg3ODItNWEyZC00YjlmLThhOGEtODM2ODU4Yjc2YjY1IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
+![LinkedIn](https://www.linkedin.com/in/durvesh-patil23 )
+![Live Report](https://app.powerbi.com/view?r=eyJrIjoiMDUxZDg3ODItNWEyZC00YjlmLThhOGEtODM2ODU4Yjc2YjY1IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9)
 
 ---
 
