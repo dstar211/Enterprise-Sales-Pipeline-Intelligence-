@@ -21,12 +21,19 @@ Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark exe
 | KPIs · Funnel · Trends | Risk Tiers · Velocity · Activity | Reps · Heatmap · Map |
 
 ---
-![business]()
+![business](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%201%20-%20Copy.jpg) 
 
+![ pipli](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%202.jpg)
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/P%203.jpg)
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%203%202%20.jpg) 
+
+![Pipline](https://github.com/dstar211/Enterprise-Sales-Pipeline-Intelligence-/blob/main/p%204.jpg) 
 
 ---
 
-## 📄 Report Pages ![ pipli]()
+## 📄 Report Pages 
 
 ### Page 1 —  Pipeline Overview
 > End-to-end pipeline visibility with executive KPIs
