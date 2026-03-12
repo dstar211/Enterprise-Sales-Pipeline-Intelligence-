@@ -21,28 +21,12 @@ Built with **ZoomCharts Drill Down visuals**, **advanced DAX**, and a **dark exe
 | KPIs · Funnel · Trends | Risk Tiers · Velocity · Activity | Reps · Heatmap · Map |
 
 ---
+![business]()
 
-## 📁 Project Structure
-
-```
-enterprise-sales-pipeline-powerbi/
-│
-├── 📊 Enterprise_Sales_Pipeline.pbix
-│
-├── 📂 Data/
-│   └── Enterprise_Sales_Pipeline_Challenge_35.xlsx
-│
-├── 📂 DAX/
-│   ├── Page1_Pipeline_Overview_DAX.docx
-│   ├── Page2_Health_Monitor_DAX.docx
-│   └── Page3_Sales_Execution_DAX.docx
-│
-└── README.md
-```
 
 ---
 
-## 📄 Report Pages
+## 📄 Report Pages ![ pipli]()
 
 ### Page 1 —  Pipeline Overview
 > End-to-end pipeline visibility with executive KPIs
@@ -68,7 +52,7 @@ enterprise-sales-pipeline-powerbi/
 ### Page 2 —  Pipeline Health Monitor
 > Catch stalled deals before they are lost
 
-#### 4-Tier Deal Risk Classification System
+#### -Tier Deal Risk Classification System
 
 **Visuals:**
 - Pipeline Funnel by Stage
@@ -110,27 +94,7 @@ DIVIDE(
 )
 ```
 
-### 4-Tier Risk Classification
-```dax
-Deal Risk Flag =
-VAR days =
-    DATEDIFF(
-        DATE(
-            LEFT(FORMAT(MAX(FactDeals[LastActivityDateKey]),"0"),4),
-            MID(FORMAT(MAX(FactDeals[LastActivityDateKey]),"0"),5,2),
-            RIGHT(FORMAT(MAX(FactDeals[LastActivityDateKey]),"0"),2)
-        ),
-        TODAY(), DAY
-    )
-RETURN
-SWITCH(
-    TRUE(),
-    days > 90, "🔴 Critical",
-    days > 60, "🟠 High",
-    days > 30, "🟡 Medium",
-               "🟢 Active"
-)
-```
+
 
 ### ▲▼→ Reference Labels (All KPI Cards)
 ```dax
